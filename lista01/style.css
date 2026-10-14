@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.pagina {
+  margin: 2rem auto;
+  width: min(100% - 2rem, 960px);
+}
+
+.cards {
+  align-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* Altura mínima para o align-content ficar visível quando há duas linhas. */
+  min-height: 400px;
+}
+
+.card {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
